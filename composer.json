@@ -1,0 +1,26 @@
+{
+    "name": "workofstan/mycms-social",
+    "description": "Wrapper for social logins",
+    "type": "library",
+    "homepage": "https://github.com/WorkOfStan/mycms-social",
+    "support": {
+        "issues": "https://github.com/WorkOfStan/mycms-social/issues",
+        "source": "https://github.com/WorkOfStan/mycms-social"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Rejthar",
+            "email": "rejthar@stanislavrejthar.com",
+            "homepage": "http://www.stanislavrejthar.com/"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WorkOfStan\\SocialWrapper\\": "classes/"
+        }
+    }
+}
