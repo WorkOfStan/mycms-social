@@ -1,0 +1,17 @@
+parameters:
+    level: max
+    bootstrapFiles:
+      #- config.php
+      #- config.local.dist.php # comment as debugging
+      #- ../.github/linters/conf/constants.php # (un)comment as needed
+    excludePaths:
+        analyse:
+            - ../vendor
+        #analyseAndScan:
+        #    - ../cache
+    #dynamicConstantNames:
+    #  - UNDER_CONSTRUCTION
+    #  - DEBUG_VERBOSE
+    #scanDirectories:
+    #  - ../classes
+    #ignoreErrors:
